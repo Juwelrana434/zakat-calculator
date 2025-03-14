@@ -243,7 +243,7 @@ export default function ZakatCalculator() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-green-100 p-6">
       <div className="bg-white p-6 rounded-lg shadow-lg w-full max-w-6xl">
-        <h2 className="text-2xl font-semibold mb-4 text-center text-gray-800">Zakat Calculator</h2>
+        <h2 className="text-2xl font-semibold mb-4 text-center text-black">Zakat Calculator</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {[
