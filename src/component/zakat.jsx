@@ -268,7 +268,7 @@ export default function ZakatCalculator() {
                 type="number"
                 value={field.state}
                 onChange={(e) => field.setState(parseFloat(e.target.value) || 0)}
-                className="w-full p-2 border border-gray-300 rounded focus:ring focus:ring-blue-300 bg-green-100"
+                className="w-full p-2 border border-gray-300 rounded focus:ring focus:ring-blue-300 bg-green-100 text-black"
               />
               <p className="text-xs text-gray-500 mt-1">{field.info}</p>
             </div>
